@@ -1,0 +1,20 @@
+p {
+  font-family: Lato;
+}
+ul {
+  background-color: rgb(169, 169, 169);
+}
+ul li {
+  list-style: circle;
+  cursor: pointer;
+  line-height: 30px;
+}
+li:first-child {
+  color: rgb(230, 230, 21)
+}
+li:nth-child(2) {
+  color: green
+}
+li:nth-child(3) {
+  color: red;
+}

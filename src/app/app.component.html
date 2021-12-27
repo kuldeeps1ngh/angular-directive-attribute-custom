@@ -1,0 +1,13 @@
+<hello [color]="color" name="{{ name }}"></hello>
+<p [appHighlight]="color">
+  Start editing to see some magic happen :)
+</p>
+
+<div>
+  <h3>Pick color:</h3>
+  <ul>
+    <li (click)="color='yellow'">Yellow</li>
+    <li (click)="color='green'">Green</li>
+    <li (click)="color='red'">Red</li>
+  </ul>
+</div>
